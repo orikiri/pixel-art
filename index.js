@@ -92,3 +92,19 @@ function checker(elementId) {
         }
     });
 }
+// ------ Очистить поле ------ //
+clearGridBtn.addEventListener('click', () => {
+    container.innerHTML = '';
+});
+// ------ Ластик ------ //
+eraseBtn.addEventListener('click', () => {
+    erase = true;
+});
+// ------ Кисть ------ //
+paintBtn.addEventListener('click', () => {
+    erase = false;
+});
+// ------ Переключение на кисть, после повторного выбора цвета ------ //
+colorBtn.addEventListener('click', () => {
+    erase = false;
+})
