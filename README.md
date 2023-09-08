@@ -3,4 +3,4 @@
 
 Простое приложение для создания пиксельных рисунков. 
 
-HTML, CSS, JavaScript.
+HTML, CSS, JavaScript, Font-awesome.
