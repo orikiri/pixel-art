@@ -6,6 +6,7 @@ let heightValue = document.getElementById("height-value");
 let gridWidth = document.getElementById("width-range");
 let gridHeight = document.getElementById("height-range");
 let createGridBtn = document.getElementById("submit-grid");
+let editGridBtn = document.getElementById("edit-grid");
 let clearGridBtn = document.getElementById("clear-grid");
 let colorBtn = document.getElementById("color-input") ;
 let eraseBtn = document.getElementById("erase-btn");
@@ -96,6 +97,7 @@ function checker(elementId) {
 clearGridBtn.addEventListener('click', () => {
     container.innerHTML = '';
 });
+
 // ------ Ластик ------ //
 eraseBtn.addEventListener('click', () => {
     erase = true;
